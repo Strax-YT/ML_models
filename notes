@@ -1,3 +1,86 @@
 ridge reg
 lassso
 elastic net
+
+
+
+
+
+
+
+
+
+
+
+dependennt event 
+
+when picking ball from a box value decreases for next pick 
+
+
+independent event 
+
+one event has no realtion with other 
+
+p(yes/x1,x2,x3,x4)=p(yes)*p(x1/yes)*p(xp(x2/yes)*p(x3/yes)*p(x4/yes)*/p(x1)*p(x2)*p(x3)*p(x4)
+
+p(No/x1,x2,x3,x4)=p(No)*p(x1/No)*p(xp(x2/No)*p(x3/No)*p(x4/No)*/p(x1)*p(x2)*p(x3)*p(x4)
+
+
+here in above eq denominators are same
+so we can cacel out both the denominators
+
+
+
+
+
+
+
+
+
+s1=The boyy is good.
+s2=Girl is good.
+s3=Boy and girl both are good.
+
+step1.convert strings to same class
+
+s1=the boyy is good.
+s2=girl is good.
+s3=boy and girl both are good.
+
+step2.remove all symbols
+
+s1=the boyy is good
+s2=girl is good
+s3=boy and girl both are good
+
+step3.remove all stopwords
+
+s1= boy good
+s2=girl good
+s3=boy  girl  good.
+
+
+Bag of words
+
+
+Term freq-inverse Doc freq
+
+
+
+Naive bayes
+
+three types of NB
+
+1. Gaussian Naive bayes:
+                        If continuous data 
+
+
+2. Multinomial Naive bayes:
+                           If you have multiclass classification data in output then you should go with multinomial.
+
+3. Bernoulli Naive bayes:
+                        If you have Binary classification data then Bernoulli.
+
+
+
+
